@@ -13,7 +13,4 @@ func TestAdd(t *testing.T) {
 	if foo.Add(2, 2) != 4 {
 		t.Error("adding doesn't work properly")
 	}
-	// if foo.sideEffect != 7 {
-	// 	t.Error("side effects broken")
-	// }
 }
